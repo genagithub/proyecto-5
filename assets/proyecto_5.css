@@ -1,33 +1,81 @@
-.e5_body  {
-    width:100%;
-    height:100%;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center
-}
-.e5_title  {
-    color: white;
-    text-shadow:4px 4px 15px 0 black;
-    margin-bottom: 50px;
-    text-align:center;
-    font-family:"no-roboto", sans-serif;    
-}
-.e5_div  {
-    background-color: white;
-    width:100%;
-    height:70px;
-    box-shadow:4px 4px 15px 0 black;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
-    padding: 0;
-}
-.e5_dropdown  {
-    width:200px;
-    margin-bottom: 20px;
-}
-.e5_graph {
+.e5_body{
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white
+}
+.e5_title{
+    font-size: 1.7em;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
+    margin-top: 25px
+}
+.e5_container_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    height: 50px;
+    margin: 25px;
+}
+.e5_dropdown_div{
+    width: 150px;
+    margin-left: 50px;
+}
+.e5_dropdown{
+    width: 100%;
+}
+.e5_div{
+    height:100%;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.e5_KPI_div{
+    width: 150px;
+    height: 35px;
+    background-color: white;
+    box-shadow: #000000 4px 4px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.e5_KPI{
+    color: black;
+    margin: 0;
+}
+.e5_KPI_title{
+    margin: 0;
+    font-weight: 575;
+}
+.e5_container_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.e5_graph_1{
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    box-shadow: #000000 4px 4px 15px 0px;
+}
+.e5_graph_2{
+    width: 624px;
+    height: 250px;
+    margin-right: 20px;
+    box-shadow: #000000 4px 4px 15px 0px;
 }
