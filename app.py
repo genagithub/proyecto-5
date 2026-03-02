@@ -81,24 +81,24 @@ app = dash.Dash(__name__)
 server = app.server
 
 app.layout = html.Div(id="body", className="e5_body", children=[
-    html.A(href="https://github.com/genagithub/proyecto-5/blob/main/estimación_de_uplift_mediante_estrategia_de_bundling.ipynb",children=[html.H1("Estimación de Uplift mediante enfoque de Bundling",id="title",className="e5_title")]),
-    html.Div(id="container_1", className="e5_app_container_1", children=[
-         html.Div(id="dropdown_div", className="e5_app_dropdown_div", children=[
-             dcc.Dropdown(id="dropdown", className="e5_dropdown", 
-             options=dropdown_options,
-             value=unique_candidates[0],
-             multi=False,
-             clearable=False)
-         ]),
-         dcc.Graph(id="donut_chart", figure={}, className="e5_app_graph_1")
-    ]),
-    html.Div(id="container_2", className="e5_app_container_2", children=[
-         html.Div(id="div",className="e5_app_div",children=[
+    html.H1("Estimación de Uplift mediante enfoque de Bundling", id="title", className="e5_title"),
+    html.Div(id="container_1", className="e5_container_1", children=[
+        html.Div(id="dropdown_div", className="e5_dropdown_div", children=[
+            dcc.Dropdown(id="dropdown", className="e5_dropdown", 
+            options=dropdown_options,
+            value=unique_candidates[0],
+            multi=False,
+            clearable=False)
+        ]),
+        html.Div(id="div",className="e5_div",children=[
             html.Div(className="e5_KPI_div", children=[html.P("Uplift", className="e5_KPI_title", style={"font-size":"1em"}), html.P(uplift, className="e5_KPI")]),
             html.Div(className="e5_KPI_div", children=[html.P("Breakeven Rate", className="e5_KPI_title", style={"font-size":"0.9em"}), html.P(breakeven_rate, className="e5_KPI")]),
             html.Div(className="e5_KPI_div", children=[html.P("AOV", className="e5_KPI_title", style={"font-size":"1em"}), html.P(AOV, className="e5_KPI")])
-        ]),
-        dcc.Graph(id="barplot", figure={}, className="e5_app_graph_2")    
+        ])
+    ]),
+    html.Div(id="container_2", className="e5_container_2", children=[
+        dcc.Graph(id="donut_chart", figure={}, className="e5_graph_1"),
+        dcc.Graph(id="barplot", figure={}, className="e5_graph_2")    
     ])
 ])
 
