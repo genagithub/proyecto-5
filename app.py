@@ -90,9 +90,9 @@ app.layout = html.Div(id="body", className="e5_body", children=[
              multi=False,
              clearable=False)
          ]),
-         dcc.Graph(id="donut_chart", figure={}, className="e5_graph_1")
+         dcc.Graph(id="donut_chart", figure={}, className="e5_app_graph_1")
     ]),
-    html.Div(id="container_app_2", className="e5_app_container_2", children=[
+    html.Div(id="container_2", className="e5_app_container_2", children=[
          html.Div(id="div",className="e5_app_div",children=[
             html.Div(className="e5_KPI_div", children=[html.P("Uplift", className="e5_KPI_title", style={"font-size":"1em"}), html.P(uplift, className="e5_KPI")]),
             html.Div(className="e5_KPI_div", children=[html.P("Breakeven Rate", className="e5_KPI_title", style={"font-size":"0.9em"}), html.P(breakeven_rate, className="e5_KPI")]),
