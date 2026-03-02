@@ -91,14 +91,14 @@ app.layout = html.Div(id="body", className="e5_body", children=[
             clearable=False)
         ]),
         html.Div(id="div",className="e5_div",children=[
-            html.Div(className="e5_KPI_div", children=[html.P("Uplift", className="e5_KPI_title", style={"font-size":"0.9em"}), html.P(uplift, className="e5_KPI")]),
-            html.Div(className="e5_KPI_div", children=[html.P("Breakeven Rate", className="e5_KPI_title", style={"font-size":"0.9em"}), html.P(breakeven_rate, className="e5_KPI")]),
-            html.Div(className="e5_KPI_div", children=[html.P("AOV", className="e5_KPI_title", style={"font-size":"0.9em"}), html.P(AOV, className="e5_KPI")])
+            html.Div(className="e5_KPI_div", style={"height":"40px"}, children=[html.P("Uplift", className="e5_KPI_title", style={"font-size":"1em"}), html.P(uplift, className="e5_KPI")]),
+            html.Div(className="e5_KPI_div", style={"height":"40px"}, children=[html.P("Breakeven Rate", className="e5_KPI_title", style={"font-size":"0.9em"}), html.P(breakeven_rate, className="e5_KPI")]),
+            html.Div(className="e5_KPI_div", style={"height":"40px"}, children=[html.P("AOV", className="e5_KPI_title", style={"font-size":"1em"}), html.P(AOV, className="e5_KPI")])
         ])
     ]),
     html.Div(id="container_2", className="e5_container_2", children=[
         dcc.Graph(id="donut_chart", figure={}, className="e5_graph_1"),
-        dcc.Graph(id="barplot", figure={}, className="e5_graph_2", style={"width":"800px;"})    
+        dcc.Graph(id="barplot", figure={}, className="e5_graph_2", style={"width":"800px"})    
     ])
 ])
 
