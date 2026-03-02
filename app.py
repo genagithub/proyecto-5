@@ -82,7 +82,7 @@ server = app.server
 
 app.layout = html.Div(id="body", className="e5_body", children=[
     html.H1("Estimación de Uplift mediante enfoque de Bundling", id="title", className="e5_title"),
-    html.Div(id="container_1", className="e5_container_1", children=[
+    html.Div(id="container_1", className="e5_container_1", style={"margin-left": "75px"},children=[
         html.Div(id="dropdown_div", className="e5_dropdown_div", children=[
             dcc.Dropdown(id="dropdown", className="e5_dropdown", 
             options=dropdown_options,
@@ -96,9 +96,9 @@ app.layout = html.Div(id="body", className="e5_body", children=[
             html.Div(className="e5_KPI_div", style={"height":"40px"}, children=[html.P("AOV", className="e5_KPI_title", style={"font-size":"1em"}), html.P(AOV, className="e5_KPI")])
         ])
     ]),
-    html.Div(id="container_2", className="e5_container_2", children=[
-        dcc.Graph(id="donut_chart", figure={}, className="e5_graph_1"),
-        dcc.Graph(id="barplot", figure={}, className="e5_graph_2", style={"width":"800px"})    
+    html.Div(id="container_2", className="e5_container_2", style={"margin-bottom":"0"}, children=[
+        dcc.Graph(id="donut_chart", figure={}, className="e5_graph_1", style={"width":"275px","height":"275px"}),
+        dcc.Graph(id="barplot", figure={}, className="e5_graph_2", style={"width":"850px"})    
     ])
 ])
 
