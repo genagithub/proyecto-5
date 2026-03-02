@@ -81,7 +81,7 @@ app = dash.Dash(__name__)
 server = app.server
 
 app.layout = html.Div(id="body", className="e5_body", children=[
-    html.A(href="https://github.com/genagithub/proyecto-5/blob/main/estimación_de_uplift_mediante_estrategia_de_bundling.ipynb",target="blank",children=[html.H1("Estimación de Uplift mediante enfoque de Bundling",id="title",className="e5_title")]),
+    html.A(href="https://github.com/genagithub/proyecto-5/blob/main/estimación_de_uplift_mediante_estrategia_de_bundling.ipynb",children=[html.H1("Estimación de Uplift mediante enfoque de Bundling",id="title",className="e5_title")]),
     html.Div(id="container_1", className="e5_container_1", children=[
         html.Div(id="dropdown_div", className="e5_dropdown_div", children=[
             dcc.Dropdown(id="dropdown", className="e5_dropdown", 
