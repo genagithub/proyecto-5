@@ -91,9 +91,9 @@ app.layout = html.Div(id="body", className="e5_body", children=[
             clearable=False)
         ]),
         html.Div(id="div",className="e5_div",style={"margin-right":"25px"},children=[
-            html.Div(className="e5_KPI_div", style={"height":"40px"}, children=[html.P("Uplift", className="e5_KPI_title", style={"font-size":"1em"}), html.P(uplift, className="e5_KPI")]),
-            html.Div(className="e5_KPI_div", style={"height":"40px"}, children=[html.P("Breakeven Rate", className="e5_KPI_title", style={"font-size":"0.9em"}), html.P(breakeven_rate, className="e5_KPI")]),
-            html.Div(className="e5_KPI_div", style={"height":"40px"}, children=[html.P("AOV", className="e5_KPI_title", style={"font-size":"1em"}), html.P(AOV, className="e5_KPI")])
+            html.Div(className="e5_KPI_div", style={"width":"175px","height":"40px"}, children=[html.P("Uplift", className="e5_KPI_title", style={"font-size":"1em"}), html.P(uplift, className="e5_KPI")]),
+            html.Div(className="e5_KPI_div", style={"width":"175px","height":"40px"}, children=[html.P("Breakeven Rate", className="e5_KPI_title", style={"font-size":"0.9em"}), html.P(breakeven_rate, className="e5_KPI")]),
+            html.Div(className="e5_KPI_div", style={"width":"175px","height":"40px"}, children=[html.P("AOV", className="e5_KPI_title", style={"font-size":"1em"}), html.P(AOV, className="e5_KPI")])
         ])
     ]),
     html.Div(id="container_2", className="e5_container_2", style={"margin-bottom":"0"}, children=[
