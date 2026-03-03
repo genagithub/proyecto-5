@@ -98,7 +98,7 @@ app.layout = html.Div(id="body", className="e5_body", children=[
     ]),
     html.Div(id="container_2", className="e5_container_2", style={"margin-bottom":"0"}, children=[
         dcc.Graph(id="donut_chart", figure={}, className="e5_graph_1", style={"width":"300px","height":"300px"}),
-        dcc.Graph(id="barplot", figure={}, className="e5_graph_2", style={"width":"850px","height":"300px","margin-right":"25px"})    
+        dcc.Graph(id="barplot", figure={}, className="e5_graph_2", style={"width":"850px","height":"300px","margin-right":"35px"})    
     ])
 ])
 
