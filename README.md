@@ -1,7 +1,7 @@
-### 🔁 Estimación de Uplift mediante Estrategia de Bundling (Marketing & Ventas)
+### 🔁 Estimación de Uplift mediante Estrategia de Bundling
 
 #### 🎯 El Problema de Negocio
-La empresa busca diseñar ofertas de paquetes de productos combinados (bundling) pero no sabe con certeza qué productos rinden mejor juntos ni qué impacto real (uplift) tendrán en el margen de beneficios. El objetivo es determinar si es posible aumentar los ingresos mediante algoritmos de inteligencia comercial, evitando lanzar ofertas a ciegas que canibalicen las ventas individuales.
+Los sectores de Marketing & Ventas buscan diseñar ofertas de paquetes de productos combinados (bundling) pero no sabe con certeza qué productos rinden mejor juntos ni qué impacto real (uplift) tendrán en el margen de beneficios. El objetivo es determinar si es posible aumentar los ingresos mediante algoritmos de inteligencia comercial, evitando lanzar ofertas a ciegas que canibalicen las ventas individuales.
 
 ---
 
