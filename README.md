@@ -6,7 +6,7 @@ La empresa busca diseñar ofertas de paquetes de productos combinados (bundling)
 ---
 
 #### 🛠️ La Solución Técnica: Modelado de Elasticidad y Co-ocurrencia
-Se combinaron técnicas de aprendizaje no supervisado para la afinidad de productos con modelos macroeconómicos de sensibilidad, El diseño técnico se basó en:
+Se combinaron técnicas de aprendizaje no supervisado para la afinidad de productos con modelos macroeconómicos de sensibilidad, el diseño técnico se basó en:
 - **Minería de Afinidad:** Implementación de algoritmos para la detección de patrones de co-ocurrencia, identificando qué productos tienden a comprarse juntos en el histórico de transacciones.
 - **Simulación de Elasticidad:** Evaluación de la sensibilidad del cliente ante el cambio de precio del paquete frente a los productos por separado.
 - **Estimación de Incremento (Uplift):** Desarrollo de un flujo analítico que calcula el beneficio neto incremental en ingresos para asegurar que la oferta integrada realmente aporte valor económico.
