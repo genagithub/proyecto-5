@@ -5,7 +5,7 @@ La empresa busca diseñar ofertas de paquetes de productos combinados (bundling)
 
 ---
 
-#### 🛠️ La Solución Técnica: Modelado de de Elasticidad y Co-ocurrencia
+#### 🛠️ La Solución Técnica: Modelado de Elasticidad y Co-ocurrencia
 Para la construcción de este prototipo analítico, se desarrolló una arquitectura orientada a la experiencia del usuario técnico y de negocio, priorizando la interpretabilidad del modelo:
 - **Minería de Afinidad:** Implementación de algoritmos para la detección de patrones de co-ocurrencia, identificando qué productos tienden a comprarse juntos en el histórico de transacciones.
 - **Simulación de Elasticidad:** Evaluación de la sensibilidad del cliente ante el cambio de precio del paquete frente a los productos por separado.
