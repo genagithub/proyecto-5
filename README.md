@@ -20,4 +20,5 @@ Para la construcción de este prototipo analítico, se desarrolló una arquitect
 ---
 
 #### 📌 Propósito de este Proyecto
-Permitir que los equipos de Marketing y Ventas simulen de forma autónoma diferentes escenarios de promociones combinadas, validando el impacto comercial de un nuevo paquete antes de su lanzamiento masivo al mercado.
+Al ser una herramienta de autoservicio estratégico, este Data Product no busca dar una única recomendación estática, sino satisfacer de forma continua las necesidades analíticas de múltiples áreas de ejecución, permitiendo que cada stakeholder extraiga sus propias conclusiones de negocio de manera autónoma.
+- **Guía de Ofertas:** Permite que los equipos de Marketing y Ventas simulen de forma autónoma diferentes escenarios de promociones combinadas, validando el impacto comercial de un nuevo paquete antes de su lanzamiento masivo al mercado.
