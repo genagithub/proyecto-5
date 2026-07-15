@@ -22,4 +22,4 @@ el resultado final es una herramienta interactiva que prioriza la simulación de
 
 #### 📌 Propósito de este Proyecto: Impacto Estratégico
 
-- **Iniciativa de Ofertas:** Permite que los equipos de Marketing y Ventas simulen de forma autónoma diferentes escenarios de promociones combinadas, validando el impacto comercial de un nuevo paquete antes de su lanzamiento masivo al mercado.
+**Iniciativa de Ofertas:** Permite que los equipos de Marketing y Ventas simulen de forma autónoma diferentes escenarios de promociones combinadas, validando el impacto comercial de un nuevo paquete antes de su lanzamiento masivo al mercado.
