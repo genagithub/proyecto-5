@@ -13,13 +13,13 @@ El diseño técnico de algoritmo se basó en combinar técnicas de aprendizaje n
 
 ---
 
-#### 🚀 El Data Product: Simulador Estratégico de Ofertas
+#### 🚀 Solución Analítica: Simulador Estratégico de Ofertas
 el resultado final es una herramienta interactiva que prioriza la simulación de escenarios cruzados, permitiendo predecir la elasticidad de la demanda y el impacto neto incremental (uplift) de cada oferta combinada:
 - **Modelado de Respuesta:** Predice de forma anticipada la mejora o el cambio en el comportamiento de compra de los clientes ante las estrategias de ofertas integradas.
 - **Optimización de Margen:** Filtra las combinaciones para mostrar solo los paquetes de productos que maximizan el retorno financiero sin destruir el valor de la marca.
 
 ---
 
-#### 📌 Propósito de este Proyecto
-Al ser una herramienta de autoservicio estratégico, este Data Product no busca dar una única recomendación estática, sino satisfacer de forma continua las necesidades analíticas de múltiples áreas de ejecución, permitiendo que cada stakeholder extraiga sus propias conclusiones de negocio de manera autónoma.
+#### 📌 Propósito de este Proyecto: Impacto Estratégico
+
 - **Iniciativa de Ofertas:** Permite que los equipos de Marketing y Ventas simulen de forma autónoma diferentes escenarios de promociones combinadas, validando el impacto comercial de un nuevo paquete antes de su lanzamiento masivo al mercado.
