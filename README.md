@@ -5,7 +5,7 @@ Los sectores de marketing y ventas buscan diseñar ofertas de paquetes de produc
 
 ---
 
-#### 🛠️ La Solución Técnica: Modelado de Elasticidad y Co-ocurrencia
+#### 🛠️ Solución Técnica: Modelado de Elasticidad y Co-ocurrencia
 El diseño técnico de algoritmo se basó en combinar técnicas de aprendizaje no supervisado para la afinidad de productos con modelos macroeconómicos de sensibilidad:
 - **Minería de Afinidad:** Implementación de algoritmos para la detección de patrones de co-ocurrencia, identificando qué productos tienden a comprarse juntos en el histórico de transacciones.
 - **Simulación de Elasticidad:** Evaluación de la sensibilidad del cliente ante el cambio de precio del paquete frente a los productos por separado.
