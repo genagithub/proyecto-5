@@ -1,7 +1,7 @@
 ### 🔁 Estimación de Uplift mediante Estrategia de Bundling
 
 #### 🎯 El Contexto del Problema 
-Los sectores de marketing y ventas buscan diseñar ofertas de paquetes de productos combinados (bundling) pero no sabe con certeza qué productos rinden mejor juntos ni qué impacto real (uplift) tendrán en el margen de beneficios. El objetivo es determinar si es posible aumentar los ingresos mediante algoritmos de inteligencia comercial, evitando lanzar ofertas a ciegas que canibalicen las ventas individuales.
+Los sectores de marketing y ventas buscan diseñar ofertas de paquetes de productos combinados (bundling), pero carecen de visibilidad sobre qué artículos rinden mejor juntos y cuál es su impacto real en el margen neto de beneficios. El objetivo de este proyecto es superar este enfoque intuitivo mediante el desarrollo de un modelo de inteligencia comercial, a través del análisis de afinidad y el modelado de respuesta, la solución determina de forma analítica el incremento real neto (uplift) de las ofertas combinadas, maximizando los ingresos globales y evitando lanzar promociones a ciegas que canibalicen el margen de los productos individuales.
 
 ---
 
