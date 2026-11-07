@@ -1,26 +1,26 @@
-### 🔁 Estimación de Uplift mediante Estrategia de Bundling
+### 🔁 Estimación de Uplift mediante estrategia de Bundling
 
-#### 🎯 Contexto del Problema de Negocio 
+#### 🎯 Contexto del problema de negocio 
 Los sectores de Marketing y Ventas buscan diseñar ofertas de paquetes de productos combinados (bundling), pero carecen de visibilidad sobre qué artículos rinden mejor juntos y cuál es su impacto real en el margen neto de beneficios. 
 
 Para superar este enfoque intuitivo, el objetivo se basa en crear distintos algoritmos que guíen el objetivo estratégico a través del análisis de afinidad y el modelado de respuesta, siendo el resultado final un modelo de inteligencia comercial que determina de forma analítica el incremento real neto (uplift) de las ofertas combinadas.
 
 ---
 
-#### 🛠️ Enfoque Técnico y Modelado
+#### 🛠️ Enfoque técnico y modelado
 El diseño técnico de algoritmo se basó en combinar técnicas de aprendizaje no supervisado para la afinidad de productos con modelos macroeconómicos de sensibilidad:
-- **Minería de Afinidad:** Implementación de algoritmos para la detección de patrones de co-ocurrencia, identificando qué productos tienden a comprarse juntos en el histórico de transacciones.
-- **Simulación de Elasticidad:** Evaluación de la sensibilidad del cliente ante el cambio de precio del paquete frente a los productos por separado.
-- **Estimación de Incremento (Uplift):** Desarrollo de un flujo analítico que calcula el beneficio neto incremental en ingresos para asegurar que la oferta integrada realmente aporte valor económico.
+- **Minería de afinidad:** Implementación de algoritmos para la detección de patrones de co-ocurrencia, identificando qué productos tienden a comprarse juntos en el histórico de transacciones.
+- **Simulación de elasticidad:** Evaluación de la sensibilidad del cliente ante el cambio de precio del paquete frente a los productos por separado.
+- **Estimación de incremento (Uplift):** Desarrollo de un flujo analítico que calcula el beneficio neto incremental en ingresos para asegurar que la oferta integrada realmente aporte valor económico.
 
 ---
 
-#### 🚀 Solución Analítica: Simulador Estratégico de Ofertas
+#### 🚀 Solución analítica: Simulador estratégico de ofertas
 el resultado final es una herramienta interactiva que prioriza la simulación de escenarios cruzados, permitiendo predecir la elasticidad de la demanda y el impacto neto incremental (uplift) de cada oferta combinada:
-- **Modelado de Respuesta:** Predice de forma anticipada la mejora o el cambio en el comportamiento de compra de los clientes ante las estrategias de ofertas integradas.
-- **Optimización de Margen:** Filtra las combinaciones para mostrar solo los paquetes de productos que maximizan el retorno financiero sin destruir el valor de la marca.
+- **Modelado de respuesta:** Predice de forma anticipada la mejora o el cambio en el comportamiento de compra de los clientes ante las estrategias de ofertas integradas.
+- **Optimización de margen:** Filtra las combinaciones para mostrar solo los paquetes de productos que maximizan el retorno financiero sin destruir el valor de la marca.
 
 ---
 
-#### 📌 Propósito: Impacto Estratégico
-**Iniciativa de Ofertas:** Mediante su integración de forma analítica en el proceso de diseño de campañas comerciales como un simulador de ofertas combinadas de productos (bundling) asistido por IA, la herramienta dota a los equipos de Marketing y Ventas la capacidad de proyectar escenarios de demanda y calcular con precisión el beneficio neto incremental (uplift) de empaquetar ciertos productos antes de su lanzamiento al mercado.
+#### 📌 Propósito: Impacto estratégico
+**Iniciativa de ofertas:** Mediante su integración de forma analítica en el proceso de diseño de campañas comerciales como un simulador de ofertas combinadas de productos (bundling) asistido por IA, la herramienta dota a los equipos de Marketing y Ventas la capacidad de proyectar escenarios de demanda y calcular con precisión el beneficio neto incremental (uplift) de empaquetar ciertos productos antes de su lanzamiento al mercado.
